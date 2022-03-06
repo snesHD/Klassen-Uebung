@@ -38,6 +38,5 @@ namespace Klassen
             this.nachname = nachname;
             this.geburtsdatum = geburtsdatum;
         }
-
     }
 }
