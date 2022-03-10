@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Collections;   
 
 namespace Klassen
 {
@@ -7,13 +8,13 @@ namespace Klassen
     {
 
 
+        Person[] schuelerliste = { new Person("Enes", "Ünsal", Convert.ToDateTime("22 06 2002")), new Person("Yannik", "Hoffmann", Convert.ToDateTime("19 06 2002")) };
 
-        
         static void Main(string[] args)
         {
 
-
-
+            Program klassen = new Program();
+            
             /* schueler1 = new Person("Enes", "Ünsal", Convert.ToDateTime("22 06 2002"));
             Person schueler2 = new Person("Yannik", "Hoffmann", Convert.ToDateTime("19 06 2002"));
             Person schueler3 = new Person("Julian", "Rütter", Convert.ToDateTime("27 09 2001"));
@@ -23,20 +24,25 @@ namespace Klassen
             /*schuelerliste[0] = schueler1;
             schuelerliste[1] = schueler2;*/
             Console.WriteLine("Vorname \tNachname\t Geburtsdatum");
+            klassen.sortieren();
 
-            Person[] schuelerliste = { new Person("Enes", "Ünsal", Convert.ToDateTime("22 06 2002")), new Person("Yannik", "Hoffmann", Convert.ToDateTime("19 06 2002")) };
-            foreach (Person schueler in schuelerliste)
-            {
-                
-                Console.WriteLine(schueler.Name + "\t" + "\t" + schueler.Nachname + "\t" + "\t"+ schueler.Geburtsdatum);
-                //Console.WriteLine(schueler1.Name + " " + schueler1.Nachname + "geboren am" + schueler1.Geburtsdatum.ToString("dd/MM/yyyy"));
-            }
+
+
 
         }
 
+
+            
         public void sortieren()
         {
-           
+            Array.Sort(schuelerliste, new comparer());
+
+            foreach (Person schueler in schuelerliste)
+            {
+
+                Console.WriteLine(schueler.Name + "\t\t" + schueler.Nachname + "\t" + schueler.Geburtsdatum);
+               
+            }
         }
     }
 }
