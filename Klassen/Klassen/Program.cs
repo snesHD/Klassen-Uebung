@@ -35,7 +35,8 @@ namespace Klassen
             
         public void sortieren()
         {
-            Array.Sort(schuelerliste, new comparer());
+            //Array.Sort(schuelerliste, new SortVorname().Compare);
+            Array.Sort(schuelerliste, new SortVorname().CompareNachname);
 
             foreach (Person schueler in schuelerliste)
             {
