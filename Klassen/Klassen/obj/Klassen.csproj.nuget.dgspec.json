@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\Klassen-Uebung\\Klassen\\Klassen\\Klassen.csproj": {}
+    "E:\\github\\Klassen-Uebung\\Klassen\\Klassen\\Klassen.csproj": {}
   },
   "projects": {
-    "D:\\Github\\Klassen-Uebung\\Klassen\\Klassen\\Klassen.csproj": {
+    "E:\\github\\Klassen-Uebung\\Klassen\\Klassen\\Klassen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\Klassen-Uebung\\Klassen\\Klassen\\Klassen.csproj",
+        "projectUniqueName": "E:\\github\\Klassen-Uebung\\Klassen\\Klassen\\Klassen.csproj",
         "projectName": "Klassen",
-        "projectPath": "D:\\Github\\Klassen-Uebung\\Klassen\\Klassen\\Klassen.csproj",
+        "projectPath": "E:\\github\\Klassen-Uebung\\Klassen\\Klassen\\Klassen.csproj",
         "packagesPath": "C:\\Users\\ibo14\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\Klassen-Uebung\\Klassen\\Klassen\\obj\\",
+        "outputPath": "E:\\github\\Klassen-Uebung\\Klassen\\Klassen\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ibo14\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,7 +26,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -38,7 +37,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -54,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
