@@ -25,3 +25,17 @@ E:\github\Klassen-Uebung\Klassen\Klassen\obj\Debug\netcoreapp3.1\Klassen.csproj.
 E:\github\Klassen-Uebung\Klassen\Klassen\obj\Debug\netcoreapp3.1\Klassen.dll
 E:\github\Klassen-Uebung\Klassen\Klassen\obj\Debug\netcoreapp3.1\Klassen.pdb
 E:\github\Klassen-Uebung\Klassen\Klassen\obj\Debug\netcoreapp3.1\Klassen.genruntimeconfig.cache
+C:\Users\ibo14\Documents\Klassen-Uebung\Klassen\Klassen\bin\Debug\netcoreapp3.1\Klassen.exe
+C:\Users\ibo14\Documents\Klassen-Uebung\Klassen\Klassen\bin\Debug\netcoreapp3.1\Klassen.deps.json
+C:\Users\ibo14\Documents\Klassen-Uebung\Klassen\Klassen\bin\Debug\netcoreapp3.1\Klassen.runtimeconfig.json
+C:\Users\ibo14\Documents\Klassen-Uebung\Klassen\Klassen\bin\Debug\netcoreapp3.1\Klassen.runtimeconfig.dev.json
+C:\Users\ibo14\Documents\Klassen-Uebung\Klassen\Klassen\bin\Debug\netcoreapp3.1\Klassen.dll
+C:\Users\ibo14\Documents\Klassen-Uebung\Klassen\Klassen\bin\Debug\netcoreapp3.1\Klassen.pdb
+C:\Users\ibo14\Documents\Klassen-Uebung\Klassen\Klassen\obj\Debug\netcoreapp3.1\Klassen.csproj.AssemblyReference.cache
+C:\Users\ibo14\Documents\Klassen-Uebung\Klassen\Klassen\obj\Debug\netcoreapp3.1\Klassen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibo14\Documents\Klassen-Uebung\Klassen\Klassen\obj\Debug\netcoreapp3.1\Klassen.AssemblyInfoInputs.cache
+C:\Users\ibo14\Documents\Klassen-Uebung\Klassen\Klassen\obj\Debug\netcoreapp3.1\Klassen.AssemblyInfo.cs
+C:\Users\ibo14\Documents\Klassen-Uebung\Klassen\Klassen\obj\Debug\netcoreapp3.1\Klassen.csproj.CoreCompileInputs.cache
+C:\Users\ibo14\Documents\Klassen-Uebung\Klassen\Klassen\obj\Debug\netcoreapp3.1\Klassen.dll
+C:\Users\ibo14\Documents\Klassen-Uebung\Klassen\Klassen\obj\Debug\netcoreapp3.1\Klassen.pdb
+C:\Users\ibo14\Documents\Klassen-Uebung\Klassen\Klassen\obj\Debug\netcoreapp3.1\Klassen.genruntimeconfig.cache

@@ -37,34 +37,46 @@ namespace Klassen
 
         public void sortieren()
         {
-            
-            int sortierung = Convert.ToInt32(Console.ReadLine());
-            switch (sortierung)
+            string sortierung ;
+            do
+            {
+                sortierung = Console.ReadLine();
+                if (string.IsNullOrEmpty(sortierung))
+                {
+                    Console.WriteLine("KEINE EINGABE\nBITTE GEBEN SIE EINE GÜLTIGE EINGABE");
+                }
+            } while (string.IsNullOrEmpty(sortierung));
+
+            switch (Convert.ToInt32(sortierung))
             {
                 case 1:
                     Array.Sort(schuelerliste, new Sortieren().Compare);
+                    Console.WriteLine("\t\t SORTIERUNG VORNAME");
                     break;
                 case 2:
                     Array.Sort(schuelerliste, new Sortieren().CompareNachname);
+                    Console.WriteLine("\t\t SORTIERUNG NACHNAME");
                     break;
                 case 3:
                     Array.Sort(schuelerliste, new Sortieren().CompareGeburtsdatum);
-                    break;
-                default:
-                   //keine sortierung
+                    Console.WriteLine("\t\t SORTIERUNG GEBURTSDATUM");
                     break;
             }
         }
 
         public void ausgabe()
         {
-
-            Console.WriteLine("\nVorname \tNachname\t Geburtsdatum");
-            Console.WriteLine("---------------------------------------------");
+            Console.WriteLine("-----------------------------------------------------");
+            Console.Clear();
             foreach (Person schueler in schuelerliste)
             {
-                Console.WriteLine(schueler.Name + "\t" + schueler.Nachname + "\t" + schueler.Geburtsdatum.ToString("dd/mm/yyyy"));
+                Console.WriteLine("Vorname: \t"+ schueler.Name);
+                Console.WriteLine("Nachname: \t"+ schueler.Nachname);
+                Console.WriteLine("Geburtsdatum: \t"+ schueler.Geburtsdatum.ToString("dd/MM/yyyy"));
+                Console.WriteLine("-----------------------------------------------------");
+                
             }
+           
         }
     }
 }
